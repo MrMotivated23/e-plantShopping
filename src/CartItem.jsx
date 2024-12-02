@@ -24,7 +24,7 @@ const CartItem = ({ onContinueShopping }) => {
 
   const handleContinueShopping = (e) => {
     e.preventDefault();
-    setShowPlants(true);
+    onContinueShopping();
     
   };
 
