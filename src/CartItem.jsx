@@ -20,7 +20,18 @@ const CartItem = ({ onContinueShopping }) => {
   };
   
 
-  const cartTotalAmount = calculateTotalAmount("cart")
+  const cartTotalAmount = calculateTotalAmount("cart");
+
+  constTotalQuantity = (Type) => {
+    cart.foreach((item) => {
+
+    })
+
+
+  }
+
+
+  const totalQuantity = calculateTotalQuantity();
 
   const handleContinueShopping = (e) => {
     e.preventDefault();
@@ -31,7 +42,7 @@ const CartItem = ({ onContinueShopping }) => {
 
 
   const handleIncrement = (item) => {
-    
+
     dispatch(updateQuantity(item.quantity++));
 
   };
