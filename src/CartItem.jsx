@@ -22,16 +22,6 @@ const CartItem = ({ onContinueShopping }) => {
 
   const cartTotalAmount = calculateTotalAmount("cart");
 
-  constTotalQuantity = (Type) => {
-    cart.foreach((item) => {
-
-    })
-
-
-  }
-
-
-  const totalQuantity = calculateTotalQuantity();
 
   const handleContinueShopping = (e) => {
     e.preventDefault();
